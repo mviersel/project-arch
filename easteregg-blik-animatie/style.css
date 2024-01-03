@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    /* display: flex; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#window {
+    background-color: lightblue;
+    height: 31vh;
+    width: 33vw;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#blik {
+    background-color: red;
+    color: white;
+    height: 270px;
+    width: 120px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    transform: rotate(10deg);
+    transition: 1s;
+}
+
+#blik:hover {
+    transform: rotate(90deg);
+    bottom: -200px;
+    left: 70px;
+    zoom: normal;
+}
