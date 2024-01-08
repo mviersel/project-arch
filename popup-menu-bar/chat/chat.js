@@ -3,7 +3,7 @@ clickElement.addEventListener("click", toggleClass);
 
 showClass = "rood";
 
-const toggleClass = function (element) {
+function toggleClass (element) {
     if (element.classList.contains(showClass)) {
         console.log("class removed");
         // If the class exists, remove it
