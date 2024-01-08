@@ -34,6 +34,11 @@ body {
     left: -10px;
     transform: rotate(10deg);
     transition: 1s;
+    opacity: 10%;
+}
+
+.blik:hover {
+    opacity: 100%;
 }
 
 .blik-val {
@@ -41,4 +46,5 @@ body {
     bottom: -200px;
     left: 70px;
     zoom: normal;
+    opacity: 100%;
 }
