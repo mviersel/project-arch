@@ -1,9 +1,14 @@
 const clickElement = document.getElementById("btnPress");
-clickElement.addEventListener("click", toggleClass);
+const changeElement = document.getElementById("myElement");
+const rood = "rood";
+const blauw = "blauw";
 
-showClass = "rood";
+clickElement.addEventListener("click", function(){
+    toggleClass(changeElement, rood);
+});
 
-function toggleClass (element) {
+
+function toggleClass (element, showClass) {
     if (element.classList.contains(showClass)) {
         console.log("class removed");
         // If the class exists, remove it
